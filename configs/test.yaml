@@ -1,0 +1,8 @@
+# Tiny debug config
+name: test
+n: 3
+
+max_iterations: 200
+learning_rate_milestones: [100, 150]
+evaluate_every: 50
+checkpoint_every: 100

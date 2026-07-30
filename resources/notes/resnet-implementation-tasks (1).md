@@ -10,8 +10,6 @@
 
 **What you're NOT building.** The full ImageNet experiment. It's 150GB of photos and about a week of nonstop GPU time. Skip it entirely.
 
-**Why this is worth putting on a resume.** Implementing ResNet by itself isn't impressive — it ships built into PyTorch, and every tutorial does it. What's impressive is running the *controlled comparison*: same depth, same parameter count, only difference is the shortcut. That's an experiment, not a tutorial. Say it that way when you talk about it.
-
 ---
 
 ## Step 0: Figure out your hardware

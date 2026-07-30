@@ -1,0 +1,8 @@
+# ResNet-110. Paper's test error: 6.43%
+# Needs warmup if we start at 0.1 ts starts to diverge at this depth.
+name: resnet110_seed0
+n: 18
+residual: true
+seed: 0
+
+warmup: true

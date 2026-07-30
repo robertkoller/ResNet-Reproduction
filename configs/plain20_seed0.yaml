@@ -1,0 +1,5 @@
+# Plain-20: the control group
+name: plain20_seed0
+n: 3
+residual: false
+seed: 0

@@ -1,0 +1,5 @@
+# ResNet-20. Papers test error is 8.75%
+name: resnet20_seed0
+n: 3
+residual: true
+seed: 0
