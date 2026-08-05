@@ -1,0 +1,5 @@
+# ResNet-44. Paper's test error: 7.17%
+name: resnet44_seed0
+n: 7
+residual: true
+seed: 0

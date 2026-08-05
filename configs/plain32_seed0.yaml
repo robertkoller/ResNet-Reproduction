@@ -1,0 +1,6 @@
+# Plain-32: the control group for ResNet-32.
+# Identical parameter count; the only difference is the shortcut.
+name: plain32_seed0
+n: 5
+residual: false
+seed: 0

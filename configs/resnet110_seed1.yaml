@@ -1,0 +1,10 @@
+# ResNet-110. Paper's test error: 6.43%
+# One of five seeds; the depth 44/56 gap is only 0.2 points, which is
+# comparable to seed-to-seed variation, so a single run cannot
+# distinguish a real effect from noise.
+name: resnet110_seed1
+n: 18
+residual: true
+seed: 1
+
+warmup: true

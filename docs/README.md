@@ -10,6 +10,7 @@ questions that came up along the way.
 | [`block/`](block/README.md) | *what is the architecture, and why?* | the residual block from the ground up |
 | [`library/`](library/README.md) | *what is PyTorch doing underneath?* | the machinery below the API |
 | [`qanda/`](qanda/README.md) | *why is it designed this way?* | design questions, with answers |
+| [`deviations.md`](deviations.md) | *where does this differ from the paper?* | every difference, with its reasoning |
 
 Read in whatever order the confusion demands. Each folder has its own index.
 
@@ -56,6 +57,13 @@ reasoning behind it.
 
 Deliberately narrow — setup, syntax, and implementation mechanics are not
 recorded. Answers are summaries that link back into the folders above.
+
+## [`deviations.md`](deviations.md)
+
+Every place this reproduction differs from the original protocol — environment,
+normalization, bottleneck stride placement, the limits of seeding — with the
+reasoning and the expected effect on results. Also a short section on things
+that look like deviations but are not.
 
 ---
 

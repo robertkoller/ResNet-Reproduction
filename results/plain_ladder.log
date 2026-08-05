@@ -1,0 +1,624 @@
+Set seed: 0
+Run:     plain20_seed0
+Device:  mps
+Resume:  False
+Settings:
+  depth (derived)              20
+  name                         plain20_seed0
+  n                            3
+  residual                     False
+  shortcut                     A
+  seed                         0
+  batch_size                   128
+  learning_rate                0.1
+  momentum                     0.9
+  weight_decay                 0.0001
+  max_iterations               64000
+  learning_rate_milestones     [32000, 48000]
+  learning_rate_gamma          0.1
+  warmup                       False
+  warmup_learning_rate         0.01
+  warmup_error_threshold       0.8
+  evaluate_every               500
+  checkpoint_every             2000
+  data_directory               datasets
+  output_directory             results
+
+depth 20, 269,722 parameters, device mps
+  iter    500/64000  lr 0.1     loss 1.7382  train err 66.25%  val err 61.96%  31s
+  iter   1000/64000  lr 0.1     loss 1.3071  train err 47.36%  val err 49.14%  59s
+  iter   1500/64000  lr 0.1     loss 1.0296  train err 36.64%  val err 35.96%  89s
+  iter   2000/64000  lr 0.1     loss 0.8562  train err 29.87%  val err 28.72%  121s
+  iter   2500/64000  lr 0.1     loss 0.7587  train err 26.43%  val err 24.90%  155s
+  iter   3000/64000  lr 0.1     loss 0.6824  train err 23.65%  val err 25.36%  190s
+  iter   3500/64000  lr 0.1     loss 0.6353  train err 21.99%  val err 24.86%  227s
+  iter   4000/64000  lr 0.1     loss 0.5918  train err 20.34%  val err 26.06%  263s
+  iter   4500/64000  lr 0.1     loss 0.5697  train err 19.67%  val err 23.62%  300s
+  iter   5000/64000  lr 0.1     loss 0.5361  train err 18.44%  val err 22.62%  337s
+  iter   5500/64000  lr 0.1     loss 0.5197  train err 17.79%  val err 20.82%  373s
+  iter   6000/64000  lr 0.1     loss 0.4920  train err 16.90%  val err 21.32%  410s
+  iter   6500/64000  lr 0.1     loss 0.4750  train err 16.43%  val err 20.42%  447s
+  iter   7000/64000  lr 0.1     loss 0.4699  train err 16.22%  val err 23.20%  485s
+  iter   7500/64000  lr 0.1     loss 0.4496  train err 15.61%  val err 19.90%  521s
+  iter   8000/64000  lr 0.1     loss 0.4445  train err 15.36%  val err 24.56%  560s
+  iter   8500/64000  lr 0.1     loss 0.4219  train err 14.55%  val err 20.16%  597s
+  iter   9000/64000  lr 0.1     loss 0.4233  train err 14.61%  val err 20.02%  635s
+  iter   9500/64000  lr 0.1     loss 0.4089  train err 14.15%  val err 18.54%  679s
+  iter  10000/64000  lr 0.1     loss 0.4045  train err 13.79%  val err 21.32%  720s
+  iter  10500/64000  lr 0.1     loss 0.3950  train err 13.68%  val err 18.22%  759s
+  iter  11000/64000  lr 0.1     loss 0.3886  train err 13.42%  val err 22.88%  796s
+  iter  11500/64000  lr 0.1     loss 0.3815  train err 13.22%  val err 18.20%  834s
+  iter  12000/64000  lr 0.1     loss 0.3746  train err 13.05%  val err 20.28%  872s
+  iter  12500/64000  lr 0.1     loss 0.3712  train err 12.80%  val err 17.78%  918s
+  iter  13000/64000  lr 0.1     loss 0.3689  train err 12.75%  val err 19.70%  976s
+  iter  13500/64000  lr 0.1     loss 0.3601  train err 12.41%  val err 16.18%  1018s
+  iter  14000/64000  lr 0.1     loss 0.3532  train err 12.37%  val err 17.24%  1064s
+  iter  14500/64000  lr 0.1     loss 0.3532  train err 12.22%  val err 19.78%  1106s
+  iter  15000/64000  lr 0.1     loss 0.3519  train err 12.26%  val err 15.72%  1144s
+  iter  15500/64000  lr 0.1     loss 0.3442  train err 11.96%  val err 14.78%  1182s
+  iter  16000/64000  lr 0.1     loss 0.3403  train err 11.86%  val err 18.28%  1221s
+  iter  16500/64000  lr 0.1     loss 0.3370  train err 11.83%  val err 18.68%  1253s
+  iter  17000/64000  lr 0.1     loss 0.3298  train err 11.60%  val err 15.42%  1283s
+  iter  17500/64000  lr 0.1     loss 0.3301  train err 11.56%  val err 18.32%  1313s
+  iter  18000/64000  lr 0.1     loss 0.3272  train err 11.25%  val err 16.78%  1344s
+  iter  18500/64000  lr 0.1     loss 0.3252  train err 11.44%  val err 14.70%  1374s
+  iter  19000/64000  lr 0.1     loss 0.3203  train err 11.16%  val err 17.00%  1403s
+  iter  19500/64000  lr 0.1     loss 0.3202  train err 11.12%  val err 14.30%  1433s
+  iter  20000/64000  lr 0.1     loss 0.3217  train err 11.23%  val err 17.40%  1462s
+  iter  20500/64000  lr 0.1     loss 0.3146  train err 11.06%  val err 16.00%  1490s
+  iter  21000/64000  lr 0.1     loss 0.3125  train err 10.87%  val err 14.78%  1520s
+  iter  21500/64000  lr 0.1     loss 0.3107  train err 10.75%  val err 16.66%  1550s
+  iter  22000/64000  lr 0.1     loss 0.3061  train err 10.80%  val err 15.58%  1581s
+  iter  22500/64000  lr 0.1     loss 0.3070  train err 10.69%  val err 21.02%  1617s
+  iter  23000/64000  lr 0.1     loss 0.3007  train err 10.37%  val err 15.94%  1649s
+  iter  23500/64000  lr 0.1     loss 0.3059  train err 10.68%  val err 14.98%  1688s
+  iter  24000/64000  lr 0.1     loss 0.2997  train err 10.40%  val err 20.20%  1724s
+  iter  24500/64000  lr 0.1     loss 0.3015  train err 10.46%  val err 17.88%  1760s
+  iter  25000/64000  lr 0.1     loss 0.2952  train err 10.38%  val err 19.92%  1806s
+  iter  25500/64000  lr 0.1     loss 0.2970  train err 10.31%  val err 17.20%  1841s
+  iter  26000/64000  lr 0.1     loss 0.2943  train err 10.12%  val err 14.24%  1874s
+  iter  26500/64000  lr 0.1     loss 0.2941  train err 10.23%  val err 14.48%  1907s
+  iter  27000/64000  lr 0.1     loss 0.2911  train err 10.20%  val err 15.50%  1941s
+  iter  27500/64000  lr 0.1     loss 0.2908  train err 10.15%  val err 16.60%  1972s
+  iter  28000/64000  lr 0.1     loss 0.2906  train err 10.19%  val err 15.74%  2002s
+  iter  28500/64000  lr 0.1     loss 0.2863  train err 10.03%  val err 14.66%  2031s
+  iter  29000/64000  lr 0.1     loss 0.2836  train err 9.94%  val err 14.54%  2060s
+  iter  29500/64000  lr 0.1     loss 0.2886  train err 10.12%  val err 19.80%  2088s
+  iter  30000/64000  lr 0.1     loss 0.2817  train err 9.78%  val err 14.62%  2116s
+  iter  30500/64000  lr 0.1     loss 0.2772  train err 9.50%  val err 13.22%  2144s
+  iter  31000/64000  lr 0.1     loss 0.2843  train err 9.85%  val err 15.26%  2172s
+  iter  31500/64000  lr 0.1     loss 0.2800  train err 9.71%  val err 21.04%  2199s
+  iter  32000/64000  lr 0.01    loss 0.2765  train err 9.54%  val err 14.26%  2227s
+  iter  32500/64000  lr 0.01    loss 0.1729  train err 5.98%  val err 9.28%  2254s
+  iter  33000/64000  lr 0.01    loss 0.1367  train err 4.67%  val err 9.22%  2282s
+  iter  33500/64000  lr 0.01    loss 0.1237  train err 4.23%  val err 8.92%  2311s
+  iter  34000/64000  lr 0.01    loss 0.1159  train err 3.99%  val err 9.12%  2339s
+  iter  34500/64000  lr 0.01    loss 0.1066  train err 3.67%  val err 9.20%  2367s
+  iter  35000/64000  lr 0.01    loss 0.1049  train err 3.57%  val err 8.86%  2395s
+  iter  35500/64000  lr 0.01    loss 0.0984  train err 3.36%  val err 8.72%  2423s
+  iter  36000/64000  lr 0.01    loss 0.0966  train err 3.30%  val err 8.78%  2451s
+  iter  36500/64000  lr 0.01    loss 0.0925  train err 3.16%  val err 8.58%  2479s
+  iter  37000/64000  lr 0.01    loss 0.0893  train err 3.08%  val err 9.22%  2510s
+  iter  37500/64000  lr 0.01    loss 0.0864  train err 3.03%  val err 8.90%  2540s
+  iter  38000/64000  lr 0.01    loss 0.0827  train err 2.79%  val err 8.88%  2570s
+  iter  38500/64000  lr 0.01    loss 0.0780  train err 2.72%  val err 8.70%  2602s
+  iter  39000/64000  lr 0.01    loss 0.0803  train err 2.82%  val err 9.06%  2633s
+  iter  39500/64000  lr 0.01    loss 0.0759  train err 2.64%  val err 9.10%  2664s
+  iter  40000/64000  lr 0.01    loss 0.0738  train err 2.55%  val err 9.18%  2694s
+  iter  40500/64000  lr 0.01    loss 0.0702  train err 2.42%  val err 8.90%  2726s
+  iter  41000/64000  lr 0.01    loss 0.0703  train err 2.45%  val err 9.32%  2758s
+  iter  41500/64000  lr 0.01    loss 0.0707  train err 2.46%  val err 9.30%  2791s
+  iter  42000/64000  lr 0.01    loss 0.0640  train err 2.21%  val err 9.08%  2823s
+  iter  42500/64000  lr 0.01    loss 0.0649  train err 2.21%  val err 9.20%  2855s
+  iter  43000/64000  lr 0.01    loss 0.0635  train err 2.20%  val err 9.16%  2887s
+  iter  43500/64000  lr 0.01    loss 0.0650  train err 2.23%  val err 9.42%  2917s
+  iter  44000/64000  lr 0.01    loss 0.0602  train err 2.12%  val err 9.44%  2949s
+  iter  44500/64000  lr 0.01    loss 0.0599  train err 2.05%  val err 9.36%  2980s
+  iter  45000/64000  lr 0.01    loss 0.0587  train err 2.03%  val err 8.90%  3009s
+  iter  45500/64000  lr 0.01    loss 0.0579  train err 2.00%  val err 9.34%  3039s
+  iter  46000/64000  lr 0.01    loss 0.0568  train err 1.90%  val err 9.34%  3068s
+  iter  46500/64000  lr 0.01    loss 0.0541  train err 1.78%  val err 9.20%  3097s
+  iter  47000/64000  lr 0.01    loss 0.0552  train err 1.91%  val err 9.26%  3126s
+  iter  47500/64000  lr 0.01    loss 0.0541  train err 1.86%  val err 9.02%  3155s
+  iter  48000/64000  lr 0.001   loss 0.0545  train err 1.86%  val err 9.38%  3184s
+  iter  48500/64000  lr 0.001   loss 0.0455  train err 1.55%  val err 9.18%  3213s
+  iter  49000/64000  lr 0.001   loss 0.0398  train err 1.33%  val err 9.22%  3244s
+  iter  49500/64000  lr 0.001   loss 0.0377  train err 1.21%  val err 9.00%  3273s
+  iter  50000/64000  lr 0.001   loss 0.0376  train err 1.21%  val err 8.90%  3301s
+  iter  50500/64000  lr 0.001   loss 0.0355  train err 1.12%  val err 8.94%  3331s
+  iter  51000/64000  lr 0.001   loss 0.0349  train err 1.08%  val err 9.30%  3361s
+  iter  51500/64000  lr 0.001   loss 0.0363  train err 1.14%  val err 9.02%  3391s
+  iter  52000/64000  lr 0.001   loss 0.0355  train err 1.13%  val err 8.98%  3420s
+  iter  52500/64000  lr 0.001   loss 0.0344  train err 1.11%  val err 9.04%  3450s
+  iter  53000/64000  lr 0.001   loss 0.0334  train err 1.05%  val err 9.12%  3480s
+  iter  53500/64000  lr 0.001   loss 0.0340  train err 1.05%  val err 9.00%  3509s
+  iter  54000/64000  lr 0.001   loss 0.0327  train err 1.01%  val err 9.06%  3540s
+  iter  54500/64000  lr 0.001   loss 0.0321  train err 0.98%  val err 9.04%  3569s
+  iter  55000/64000  lr 0.001   loss 0.0324  train err 1.02%  val err 9.28%  3600s
+  iter  55500/64000  lr 0.001   loss 0.0323  train err 1.00%  val err 9.04%  3630s
+  iter  56000/64000  lr 0.001   loss 0.0315  train err 0.99%  val err 9.08%  3663s
+  iter  56500/64000  lr 0.001   loss 0.0312  train err 0.98%  val err 9.26%  3695s
+  iter  57000/64000  lr 0.001   loss 0.0313  train err 0.99%  val err 9.00%  3726s
+  iter  57500/64000  lr 0.001   loss 0.0314  train err 0.98%  val err 8.90%  3757s
+  iter  58000/64000  lr 0.001   loss 0.0306  train err 0.96%  val err 8.92%  3788s
+  iter  58500/64000  lr 0.001   loss 0.0309  train err 0.95%  val err 9.22%  3819s
+  iter  59000/64000  lr 0.001   loss 0.0313  train err 0.97%  val err 9.00%  3849s
+  iter  59500/64000  lr 0.001   loss 0.0306  train err 0.95%  val err 9.00%  3880s
+  iter  60000/64000  lr 0.001   loss 0.0316  train err 0.96%  val err 9.00%  3911s
+  iter  60500/64000  lr 0.001   loss 0.0311  train err 0.95%  val err 9.14%  3941s
+  iter  61000/64000  lr 0.001   loss 0.0297  train err 0.91%  val err 8.88%  3971s
+  iter  61500/64000  lr 0.001   loss 0.0297  train err 0.91%  val err 8.92%  4003s
+  iter  62000/64000  lr 0.001   loss 0.0315  train err 0.99%  val err 9.02%  4034s
+  iter  62500/64000  lr 0.001   loss 0.0288  train err 0.90%  val err 9.10%  4066s
+  iter  63000/64000  lr 0.001   loss 0.0297  train err 0.89%  val err 9.14%  4097s
+  iter  63500/64000  lr 0.001   loss 0.0279  train err 0.85%  val err 9.04%  4128s
+  iter  64000/64000  lr 0.001   loss 0.0285  train err 0.87%  val err 8.80%  4160s
+final: test error 9.52%, validation error 8.80%, 4187s
+Set seed: 0
+Run:     plain32_seed0
+Device:  mps
+Resume:  False
+Settings:
+  depth (derived)              32
+  name                         plain32_seed0
+  n                            5
+  residual                     False
+  shortcut                     A
+  seed                         0
+  batch_size                   128
+  learning_rate                0.1
+  momentum                     0.9
+  weight_decay                 0.0001
+  max_iterations               64000
+  learning_rate_milestones     [32000, 48000]
+  learning_rate_gamma          0.1
+  warmup                       False
+  warmup_learning_rate         0.01
+  warmup_error_threshold       0.8
+  evaluate_every               500
+  checkpoint_every             2000
+  data_directory               datasets
+  output_directory             results
+
+depth 32, 464,154 parameters, device mps
+  iter    500/64000  lr 0.1     loss 1.8633  train err 70.95%  val err 64.76%  39s
+  iter   1000/64000  lr 0.1     loss 1.5427  train err 57.00%  val err 55.08%  76s
+  iter   1500/64000  lr 0.1     loss 1.2973  train err 46.96%  val err 43.42%  117s
+  iter   2000/64000  lr 0.1     loss 1.1259  train err 40.70%  val err 39.48%  164s
+  iter   2500/64000  lr 0.1     loss 1.0248  train err 36.59%  val err 37.10%  219s
+  iter   3000/64000  lr 0.1     loss 0.9318  train err 32.95%  val err 33.28%  290s
+  iter   3500/64000  lr 0.1     loss 0.8535  train err 29.80%  val err 29.10%  360s
+  iter   4000/64000  lr 0.1     loss 0.7903  train err 27.61%  val err 33.20%  426s
+  iter   4500/64000  lr 0.1     loss 0.7481  train err 25.93%  val err 37.96%  480s
+  iter   5000/64000  lr 0.1     loss 0.7132  train err 24.64%  val err 24.84%  531s
+  iter   5500/64000  lr 0.1     loss 0.6835  train err 23.46%  val err 30.78%  582s
+  iter   6000/64000  lr 0.1     loss 0.6484  train err 22.32%  val err 28.72%  633s
+  iter   6500/64000  lr 0.1     loss 0.6234  train err 21.31%  val err 26.18%  682s
+  iter   7000/64000  lr 0.1     loss 0.6108  train err 21.02%  val err 29.68%  733s
+  iter   7500/64000  lr 0.1     loss 0.5865  train err 20.10%  val err 23.26%  786s
+  iter   8000/64000  lr 0.1     loss 0.5760  train err 19.92%  val err 24.00%  838s
+  iter   8500/64000  lr 0.1     loss 0.5491  train err 18.83%  val err 23.00%  892s
+  iter   9000/64000  lr 0.1     loss 0.5491  train err 18.87%  val err 24.26%  946s
+  iter   9500/64000  lr 0.1     loss 0.5239  train err 17.95%  val err 22.32%  1000s
+  iter  10000/64000  lr 0.1     loss 0.5176  train err 17.77%  val err 18.52%  1050s
+  iter  10500/64000  lr 0.1     loss 0.5139  train err 17.58%  val err 22.82%  1102s
+  iter  11000/64000  lr 0.1     loss 0.4974  train err 17.16%  val err 23.24%  1153s
+  iter  11500/64000  lr 0.1     loss 0.4848  train err 16.46%  val err 21.52%  1200s
+  iter  12000/64000  lr 0.1     loss 0.4778  train err 16.49%  val err 20.98%  1250s
+  iter  12500/64000  lr 0.1     loss 0.4766  train err 16.33%  val err 18.06%  1295s
+  iter  13000/64000  lr 0.1     loss 0.4667  train err 15.90%  val err 19.14%  1339s
+  iter  13500/64000  lr 0.1     loss 0.4512  train err 15.40%  val err 24.20%  1381s
+  iter  14000/64000  lr 0.1     loss 0.4549  train err 15.62%  val err 22.74%  1422s
+  iter  14500/64000  lr 0.1     loss 0.4475  train err 15.46%  val err 26.92%  1463s
+  iter  15000/64000  lr 0.1     loss 0.4434  train err 15.28%  val err 19.50%  1504s
+  iter  15500/64000  lr 0.1     loss 0.4350  train err 14.85%  val err 17.80%  1544s
+  iter  16000/64000  lr 0.1     loss 0.4321  train err 14.75%  val err 18.32%  1585s
+  iter  16500/64000  lr 0.1     loss 0.4240  train err 14.55%  val err 21.12%  1627s
+  iter  17000/64000  lr 0.1     loss 0.4223  train err 14.60%  val err 16.68%  1668s
+  iter  17500/64000  lr 0.1     loss 0.4199  train err 14.43%  val err 18.10%  1709s
+  iter  18000/64000  lr 0.1     loss 0.4096  train err 14.18%  val err 18.22%  1750s
+  iter  18500/64000  lr 0.1     loss 0.4085  train err 14.07%  val err 18.30%  1792s
+  iter  19000/64000  lr 0.1     loss 0.4055  train err 13.89%  val err 17.06%  1833s
+  iter  19500/64000  lr 0.1     loss 0.3993  train err 13.79%  val err 17.30%  1875s
+  iter  20000/64000  lr 0.1     loss 0.4011  train err 13.74%  val err 24.66%  1916s
+  iter  20500/64000  lr 0.1     loss 0.3982  train err 13.55%  val err 18.08%  1957s
+  iter  21000/64000  lr 0.1     loss 0.3970  train err 13.51%  val err 20.16%  1998s
+  iter  21500/64000  lr 0.1     loss 0.3934  train err 13.43%  val err 20.98%  2040s
+  iter  22000/64000  lr 0.1     loss 0.3902  train err 13.39%  val err 16.86%  2082s
+  iter  22500/64000  lr 0.1     loss 0.3831  train err 13.17%  val err 22.28%  2123s
+  iter  23000/64000  lr 0.1     loss 0.3825  train err 13.06%  val err 26.02%  2165s
+  iter  23500/64000  lr 0.1     loss 0.3803  train err 13.16%  val err 18.50%  2206s
+  iter  24000/64000  lr 0.1     loss 0.3758  train err 12.96%  val err 17.32%  2248s
+  iter  24500/64000  lr 0.1     loss 0.3797  train err 12.97%  val err 16.58%  2290s
+  iter  25000/64000  lr 0.1     loss 0.3636  train err 12.65%  val err 17.30%  2331s
+  iter  25500/64000  lr 0.1     loss 0.3696  train err 12.68%  val err 19.54%  2373s
+  iter  26000/64000  lr 0.1     loss 0.3694  train err 12.70%  val err 16.96%  2415s
+  iter  26500/64000  lr 0.1     loss 0.3696  train err 12.69%  val err 18.48%  2458s
+  iter  27000/64000  lr 0.1     loss 0.3635  train err 12.63%  val err 18.24%  2500s
+  iter  27500/64000  lr 0.1     loss 0.3604  train err 12.47%  val err 18.26%  2541s
+  iter  28000/64000  lr 0.1     loss 0.3639  train err 12.59%  val err 18.04%  2594s
+  iter  28500/64000  lr 0.1     loss 0.3569  train err 12.46%  val err 19.68%  2650s
+  iter  29000/64000  lr 0.1     loss 0.3538  train err 12.03%  val err 17.04%  2702s
+  iter  29500/64000  lr 0.1     loss 0.3622  train err 12.29%  val err 20.06%  2751s
+  iter  30000/64000  lr 0.1     loss 0.3543  train err 12.31%  val err 18.78%  2800s
+  iter  30500/64000  lr 0.1     loss 0.3510  train err 12.01%  val err 17.74%  2850s
+  iter  31000/64000  lr 0.1     loss 0.3510  train err 12.11%  val err 16.04%  2897s
+  iter  31500/64000  lr 0.1     loss 0.3556  train err 12.31%  val err 19.20%  2933s
+  iter  32000/64000  lr 0.01    loss 0.3450  train err 11.87%  val err 19.74%  2970s
+  iter  32500/64000  lr 0.01    loss 0.2188  train err 7.48%  val err 10.94%  3007s
+  iter  33000/64000  lr 0.01    loss 0.1729  train err 5.95%  val err 11.00%  3044s
+  iter  33500/64000  lr 0.01    loss 0.1587  train err 5.42%  val err 10.42%  3083s
+  iter  34000/64000  lr 0.01    loss 0.1506  train err 5.23%  val err 10.44%  3126s
+  iter  34500/64000  lr 0.01    loss 0.1416  train err 4.96%  val err 10.92%  3166s
+  iter  35000/64000  lr 0.01    loss 0.1365  train err 4.74%  val err 10.54%  3206s
+  iter  35500/64000  lr 0.01    loss 0.1317  train err 4.52%  val err 10.68%  3246s
+  iter  36000/64000  lr 0.01    loss 0.1285  train err 4.43%  val err 10.44%  3286s
+  iter  36500/64000  lr 0.01    loss 0.1219  train err 4.29%  val err 10.42%  3326s
+  iter  37000/64000  lr 0.01    loss 0.1178  train err 4.14%  val err 10.30%  3367s
+  iter  37500/64000  lr 0.01    loss 0.1138  train err 3.97%  val err 10.70%  3407s
+  iter  38000/64000  lr 0.01    loss 0.1118  train err 3.86%  val err 10.44%  3448s
+  iter  38500/64000  lr 0.01    loss 0.1069  train err 3.71%  val err 10.72%  3489s
+  iter  39000/64000  lr 0.01    loss 0.1079  train err 3.76%  val err 10.74%  3531s
+  iter  39500/64000  lr 0.01    loss 0.0981  train err 3.42%  val err 11.02%  3572s
+  iter  40000/64000  lr 0.01    loss 0.0989  train err 3.47%  val err 10.98%  3614s
+  iter  40500/64000  lr 0.01    loss 0.0978  train err 3.43%  val err 10.56%  3657s
+  iter  41000/64000  lr 0.01    loss 0.0949  train err 3.28%  val err 11.04%  3699s
+  iter  41500/64000  lr 0.01    loss 0.0948  train err 3.39%  val err 10.80%  3740s
+  iter  42000/64000  lr 0.01    loss 0.0866  train err 2.94%  val err 10.48%  3782s
+  iter  42500/64000  lr 0.01    loss 0.0857  train err 2.99%  val err 10.72%  3824s
+  iter  43000/64000  lr 0.01    loss 0.0826  train err 2.85%  val err 10.42%  3866s
+  iter  43500/64000  lr 0.01    loss 0.0862  train err 3.00%  val err 10.50%  3909s
+  iter  44000/64000  lr 0.01    loss 0.0849  train err 2.97%  val err 10.82%  3953s
+  iter  44500/64000  lr 0.01    loss 0.0763  train err 2.65%  val err 10.62%  3995s
+  iter  45000/64000  lr 0.01    loss 0.0789  train err 2.75%  val err 11.78%  4038s
+  iter  45500/64000  lr 0.01    loss 0.0791  train err 2.77%  val err 10.76%  4081s
+  iter  46000/64000  lr 0.01    loss 0.0770  train err 2.69%  val err 11.18%  4123s
+  iter  46500/64000  lr 0.01    loss 0.0747  train err 2.63%  val err 10.40%  4165s
+  iter  47000/64000  lr 0.01    loss 0.0741  train err 2.65%  val err 10.86%  4208s
+  iter  47500/64000  lr 0.01    loss 0.0716  train err 2.51%  val err 10.58%  4252s
+  iter  48000/64000  lr 0.001   loss 0.0730  train err 2.54%  val err 10.96%  4295s
+  iter  48500/64000  lr 0.001   loss 0.0574  train err 1.98%  val err 10.48%  4342s
+  iter  49000/64000  lr 0.001   loss 0.0491  train err 1.64%  val err 10.52%  4387s
+  iter  49500/64000  lr 0.001   loss 0.0469  train err 1.51%  val err 10.48%  4431s
+  iter  50000/64000  lr 0.001   loss 0.0450  train err 1.46%  val err 10.34%  4475s
+  iter  50500/64000  lr 0.001   loss 0.0443  train err 1.50%  val err 10.52%  4518s
+  iter  51000/64000  lr 0.001   loss 0.0449  train err 1.48%  val err 10.52%  4564s
+  iter  51500/64000  lr 0.001   loss 0.0428  train err 1.39%  val err 10.44%  4602s
+  iter  52000/64000  lr 0.001   loss 0.0445  train err 1.49%  val err 10.50%  4639s
+  iter  52500/64000  lr 0.001   loss 0.0402  train err 1.30%  val err 10.28%  4677s
+  iter  53000/64000  lr 0.001   loss 0.0400  train err 1.31%  val err 10.48%  4715s
+  iter  53500/64000  lr 0.001   loss 0.0396  train err 1.30%  val err 10.48%  4753s
+  iter  54000/64000  lr 0.001   loss 0.0381  train err 1.23%  val err 10.48%  4792s
+  iter  54500/64000  lr 0.001   loss 0.0380  train err 1.28%  val err 10.68%  4831s
+  iter  55000/64000  lr 0.001   loss 0.0380  train err 1.24%  val err 10.42%  4871s
+  iter  55500/64000  lr 0.001   loss 0.0385  train err 1.21%  val err 10.24%  4911s
+  iter  56000/64000  lr 0.001   loss 0.0381  train err 1.28%  val err 10.38%  4951s
+  iter  56500/64000  lr 0.001   loss 0.0358  train err 1.15%  val err 10.68%  4991s
+  iter  57000/64000  lr 0.001   loss 0.0369  train err 1.26%  val err 10.52%  5033s
+  iter  57500/64000  lr 0.001   loss 0.0353  train err 1.14%  val err 10.28%  5073s
+  iter  58000/64000  lr 0.001   loss 0.0364  train err 1.17%  val err 10.24%  5112s
+  iter  58500/64000  lr 0.001   loss 0.0352  train err 1.16%  val err 10.40%  5152s
+  iter  59000/64000  lr 0.001   loss 0.0350  train err 1.13%  val err 10.20%  5192s
+  iter  59500/64000  lr 0.001   loss 0.0356  train err 1.18%  val err 10.24%  5232s
+  iter  60000/64000  lr 0.001   loss 0.0350  train err 1.14%  val err 10.30%  5272s
+  iter  60500/64000  lr 0.001   loss 0.0334  train err 1.10%  val err 10.32%  5313s
+  iter  61000/64000  lr 0.001   loss 0.0338  train err 1.07%  val err 10.28%  5353s
+  iter  61500/64000  lr 0.001   loss 0.0331  train err 1.04%  val err 10.44%  5393s
+  iter  62000/64000  lr 0.001   loss 0.0334  train err 1.10%  val err 10.32%  5436s
+  iter  62500/64000  lr 0.001   loss 0.0324  train err 1.06%  val err 10.58%  5477s
+  iter  63000/64000  lr 0.001   loss 0.0320  train err 1.03%  val err 10.56%  5517s
+  iter  63500/64000  lr 0.001   loss 0.0338  train err 1.12%  val err 10.36%  5559s
+  iter  64000/64000  lr 0.001   loss 0.0320  train err 1.07%  val err 10.40%  5599s
+final: test error 10.21%, validation error 10.40%, 5626s
+Set seed: 0
+Run:     plain44_seed0
+Device:  mps
+Resume:  False
+Settings:
+  depth (derived)              44
+  name                         plain44_seed0
+  n                            7
+  residual                     False
+  shortcut                     A
+  seed                         0
+  batch_size                   128
+  learning_rate                0.1
+  momentum                     0.9
+  weight_decay                 0.0001
+  max_iterations               64000
+  learning_rate_milestones     [32000, 48000]
+  learning_rate_gamma          0.1
+  warmup                       False
+  warmup_learning_rate         0.01
+  warmup_error_threshold       0.8
+  evaluate_every               500
+  checkpoint_every             2000
+  data_directory               datasets
+  output_directory             results
+
+depth 44, 658,586 parameters, device mps
+  iter    500/64000  lr 0.1     loss 1.9457  train err 74.62%  val err 71.00%  48s
+  iter   1000/64000  lr 0.1     loss 1.7199  train err 64.85%  val err 66.38%  99s
+  iter   1500/64000  lr 0.1     loss 1.5928  train err 59.95%  val err 59.32%  152s
+  iter   2000/64000  lr 0.1     loss 1.4513  train err 53.70%  val err 53.62%  204s
+  iter   2500/64000  lr 0.1     loss 1.3316  train err 48.28%  val err 52.80%  256s
+  iter   3000/64000  lr 0.1     loss 1.2266  train err 44.10%  val err 50.70%  308s
+  iter   3500/64000  lr 0.1     loss 1.1504  train err 41.26%  val err 41.12%  360s
+  iter   4000/64000  lr 0.1     loss 1.0839  train err 38.64%  val err 49.14%  411s
+  iter   4500/64000  lr 0.1     loss 1.0256  train err 36.41%  val err 47.70%  463s
+  iter   5000/64000  lr 0.1     loss 0.9877  train err 34.88%  val err 41.16%  515s
+  iter   5500/64000  lr 0.1     loss 0.9496  train err 33.50%  val err 40.02%  566s
+  iter   6000/64000  lr 0.1     loss 0.9200  train err 32.37%  val err 33.84%  618s
+  iter   6500/64000  lr 0.1     loss 0.8886  train err 31.30%  val err 33.24%  671s
+  iter   7000/64000  lr 0.1     loss 0.8718  train err 30.32%  val err 35.50%  723s
+  iter   7500/64000  lr 0.1     loss 0.8404  train err 29.42%  val err 37.24%  775s
+  iter   8000/64000  lr 0.1     loss 0.8268  train err 28.92%  val err 29.88%  829s
+  iter   8500/64000  lr 0.1     loss 0.7969  train err 27.63%  val err 33.42%  882s
+  iter   9000/64000  lr 0.1     loss 0.7819  train err 27.06%  val err 38.72%  935s
+  iter   9500/64000  lr 0.1     loss 0.7648  train err 26.39%  val err 30.42%  988s
+  iter  10000/64000  lr 0.1     loss 0.7535  train err 25.98%  val err 28.64%  1041s
+  iter  10500/64000  lr 0.1     loss 0.7350  train err 25.38%  val err 36.20%  1096s
+  iter  11000/64000  lr 0.1     loss 0.7197  train err 24.76%  val err 31.56%  1150s
+  iter  11500/64000  lr 0.1     loss 0.7068  train err 24.44%  val err 28.66%  1203s
+  iter  12000/64000  lr 0.1     loss 0.6880  train err 23.67%  val err 27.42%  1256s
+  iter  12500/64000  lr 0.1     loss 0.6782  train err 23.25%  val err 31.38%  1310s
+  iter  13000/64000  lr 0.1     loss 0.6739  train err 22.94%  val err 26.82%  1364s
+  iter  13500/64000  lr 0.1     loss 0.6551  train err 22.39%  val err 37.84%  1417s
+  iter  14000/64000  lr 0.1     loss 0.6521  train err 22.46%  val err 25.90%  1471s
+  iter  14500/64000  lr 0.1     loss 0.6387  train err 21.80%  val err 35.78%  1525s
+  iter  15000/64000  lr 0.1     loss 0.6388  train err 21.73%  val err 35.78%  1578s
+  iter  15500/64000  lr 0.1     loss 0.6251  train err 21.32%  val err 25.22%  1631s
+  iter  16000/64000  lr 0.1     loss 0.6138  train err 20.97%  val err 24.88%  1685s
+  iter  16500/64000  lr 0.1     loss 0.6192  train err 21.24%  val err 22.94%  1740s
+  iter  17000/64000  lr 0.1     loss 0.6060  train err 20.79%  val err 39.52%  1793s
+  iter  17500/64000  lr 0.1     loss 0.5975  train err 20.44%  val err 30.52%  1847s
+  iter  18000/64000  lr 0.1     loss 0.5934  train err 20.36%  val err 41.94%  1901s
+  iter  18500/64000  lr 0.1     loss 0.5874  train err 19.96%  val err 22.40%  1955s
+  iter  19000/64000  lr 0.1     loss 0.5824  train err 19.87%  val err 22.98%  2009s
+  iter  19500/64000  lr 0.1     loss 0.5675  train err 19.30%  val err 25.12%  2062s
+  iter  20000/64000  lr 0.1     loss 0.5780  train err 19.67%  val err 30.78%  2119s
+  iter  20500/64000  lr 0.1     loss 0.5666  train err 19.40%  val err 21.90%  2174s
+  iter  21000/64000  lr 0.1     loss 0.5616  train err 19.21%  val err 24.82%  2228s
+  iter  21500/64000  lr 0.1     loss 0.5572  train err 18.91%  val err 27.64%  2281s
+  iter  22000/64000  lr 0.1     loss 0.5519  train err 18.78%  val err 25.68%  2336s
+  iter  22500/64000  lr 0.1     loss 0.5515  train err 18.79%  val err 35.62%  2390s
+  iter  23000/64000  lr 0.1     loss 0.5395  train err 18.32%  val err 24.44%  2444s
+  iter  23500/64000  lr 0.1     loss 0.5411  train err 18.43%  val err 23.74%  2499s
+  iter  24000/64000  lr 0.1     loss 0.5339  train err 18.22%  val err 23.22%  2553s
+  iter  24500/64000  lr 0.1     loss 0.5378  train err 18.16%  val err 21.60%  2608s
+  iter  25000/64000  lr 0.1     loss 0.5336  train err 18.32%  val err 31.28%  2664s
+  iter  25500/64000  lr 0.1     loss 0.5300  train err 17.98%  val err 40.34%  2718s
+  iter  26000/64000  lr 0.1     loss 0.5255  train err 18.01%  val err 21.30%  2772s
+  iter  26500/64000  lr 0.1     loss 0.5216  train err 17.75%  val err 35.92%  2828s
+  iter  27000/64000  lr 0.1     loss 0.5136  train err 17.29%  val err 28.96%  2882s
+  iter  27500/64000  lr 0.1     loss 0.5130  train err 17.35%  val err 27.32%  2936s
+  iter  28000/64000  lr 0.1     loss 0.5103  train err 17.38%  val err 23.04%  2990s
+  iter  28500/64000  lr 0.1     loss 0.5069  train err 17.22%  val err 26.24%  3043s
+  iter  29000/64000  lr 0.1     loss 0.5051  train err 17.17%  val err 21.70%  3098s
+  iter  29500/64000  lr 0.1     loss 0.5072  train err 17.30%  val err 20.80%  3151s
+  iter  30000/64000  lr 0.1     loss 0.4993  train err 17.06%  val err 23.88%  3206s
+  iter  30500/64000  lr 0.1     loss 0.4918  train err 16.68%  val err 27.26%  3260s
+  iter  31000/64000  lr 0.1     loss 0.4951  train err 16.86%  val err 22.88%  3315s
+  iter  31500/64000  lr 0.1     loss 0.4981  train err 17.03%  val err 26.82%  3369s
+  iter  32000/64000  lr 0.01    loss 0.4849  train err 16.54%  val err 23.58%  3424s
+  iter  32500/64000  lr 0.01    loss 0.3431  train err 11.90%  val err 13.06%  3479s
+  iter  33000/64000  lr 0.01    loss 0.2934  train err 10.10%  val err 12.28%  3533s
+  iter  33500/64000  lr 0.01    loss 0.2790  train err 9.60%  val err 12.52%  3587s
+  iter  34000/64000  lr 0.01    loss 0.2692  train err 9.23%  val err 12.26%  3641s
+  iter  34500/64000  lr 0.01    loss 0.2603  train err 8.97%  val err 12.20%  3695s
+  iter  35000/64000  lr 0.01    loss 0.2559  train err 8.89%  val err 12.48%  3749s
+  iter  35500/64000  lr 0.01    loss 0.2469  train err 8.54%  val err 12.40%  3804s
+  iter  36000/64000  lr 0.01    loss 0.2455  train err 8.60%  val err 12.20%  3857s
+  iter  36500/64000  lr 0.01    loss 0.2376  train err 8.30%  val err 11.94%  3912s
+  iter  37000/64000  lr 0.01    loss 0.2299  train err 8.06%  val err 12.18%  3966s
+  iter  37500/64000  lr 0.01    loss 0.2297  train err 8.02%  val err 11.62%  4021s
+  iter  38000/64000  lr 0.01    loss 0.2247  train err 7.75%  val err 12.28%  4075s
+  iter  38500/64000  lr 0.01    loss 0.2193  train err 7.60%  val err 11.96%  4129s
+  iter  39000/64000  lr 0.01    loss 0.2232  train err 7.74%  val err 12.26%  4185s
+  iter  39500/64000  lr 0.01    loss 0.2128  train err 7.40%  val err 12.44%  4239s
+  iter  40000/64000  lr 0.01    loss 0.2114  train err 7.35%  val err 12.30%  4294s
+  iter  40500/64000  lr 0.01    loss 0.2081  train err 7.32%  val err 12.60%  4347s
+  iter  41000/64000  lr 0.01    loss 0.2052  train err 7.16%  val err 12.82%  4401s
+  iter  41500/64000  lr 0.01    loss 0.2049  train err 7.14%  val err 12.20%  4455s
+  iter  42000/64000  lr 0.01    loss 0.1945  train err 6.76%  val err 12.10%  4509s
+  iter  42500/64000  lr 0.01    loss 0.1934  train err 6.71%  val err 12.40%  4563s
+  iter  43000/64000  lr 0.01    loss 0.1905  train err 6.68%  val err 12.02%  4617s
+  iter  43500/64000  lr 0.01    loss 0.1915  train err 6.63%  val err 12.42%  4672s
+  iter  44000/64000  lr 0.01    loss 0.1876  train err 6.60%  val err 12.06%  4726s
+  iter  44500/64000  lr 0.01    loss 0.1804  train err 6.31%  val err 12.72%  4781s
+  iter  45000/64000  lr 0.01    loss 0.1836  train err 6.43%  val err 12.38%  4835s
+  iter  45500/64000  lr 0.01    loss 0.1841  train err 6.50%  val err 12.12%  4890s
+  iter  46000/64000  lr 0.01    loss 0.1786  train err 6.21%  val err 12.62%  4944s
+  iter  46500/64000  lr 0.01    loss 0.1729  train err 6.08%  val err 12.72%  4998s
+  iter  47000/64000  lr 0.01    loss 0.1757  train err 6.13%  val err 12.00%  5052s
+  iter  47500/64000  lr 0.01    loss 0.1683  train err 5.87%  val err 12.06%  5107s
+  iter  48000/64000  lr 0.001   loss 0.1703  train err 5.96%  val err 12.12%  5161s
+  iter  48500/64000  lr 0.001   loss 0.1424  train err 4.93%  val err 11.32%  5215s
+  iter  49000/64000  lr 0.001   loss 0.1304  train err 4.46%  val err 11.66%  5269s
+  iter  49500/64000  lr 0.001   loss 0.1267  train err 4.40%  val err 11.46%  5323s
+  iter  50000/64000  lr 0.001   loss 0.1237  train err 4.23%  val err 11.48%  5377s
+  iter  50500/64000  lr 0.001   loss 0.1220  train err 4.18%  val err 11.22%  5431s
+  iter  51000/64000  lr 0.001   loss 0.1183  train err 4.06%  val err 11.28%  5484s
+  iter  51500/64000  lr 0.001   loss 0.1175  train err 4.06%  val err 11.20%  5538s
+  iter  52000/64000  lr 0.001   loss 0.1191  train err 4.11%  val err 11.58%  5592s
+  iter  52500/64000  lr 0.001   loss 0.1153  train err 3.92%  val err 11.52%  5647s
+  iter  53000/64000  lr 0.001   loss 0.1145  train err 3.94%  val err 11.60%  5701s
+  iter  53500/64000  lr 0.001   loss 0.1130  train err 3.80%  val err 11.22%  5756s
+  iter  54000/64000  lr 0.001   loss 0.1106  train err 3.78%  val err 11.32%  5810s
+  iter  54500/64000  lr 0.001   loss 0.1112  train err 3.89%  val err 11.28%  5864s
+  iter  55000/64000  lr 0.001   loss 0.1076  train err 3.66%  val err 11.52%  5918s
+  iter  55500/64000  lr 0.001   loss 0.1118  train err 3.85%  val err 11.44%  5972s
+  iter  56000/64000  lr 0.001   loss 0.1080  train err 3.75%  val err 11.50%  6026s
+  iter  56500/64000  lr 0.001   loss 0.1081  train err 3.73%  val err 11.54%  6080s
+  iter  57000/64000  lr 0.001   loss 0.1085  train err 3.74%  val err 11.52%  6135s
+  iter  57500/64000  lr 0.001   loss 0.1045  train err 3.68%  val err 11.56%  6189s
+  iter  58000/64000  lr 0.001   loss 0.1048  train err 3.59%  val err 11.66%  6244s
+  iter  58500/64000  lr 0.001   loss 0.1031  train err 3.56%  val err 11.68%  6299s
+  iter  59000/64000  lr 0.001   loss 0.1025  train err 3.57%  val err 11.54%  6353s
+  iter  59500/64000  lr 0.001   loss 0.1050  train err 3.53%  val err 11.40%  6409s
+  iter  60000/64000  lr 0.001   loss 0.1045  train err 3.62%  val err 11.52%  6463s
+  iter  60500/64000  lr 0.001   loss 0.1024  train err 3.57%  val err 11.76%  6519s
+  iter  61000/64000  lr 0.001   loss 0.1007  train err 3.49%  val err 11.56%  6574s
+  iter  61500/64000  lr 0.001   loss 0.1005  train err 3.47%  val err 11.48%  6628s
+  iter  62000/64000  lr 0.001   loss 0.1035  train err 3.55%  val err 11.68%  6681s
+  iter  62500/64000  lr 0.001   loss 0.0994  train err 3.50%  val err 11.52%  6736s
+  iter  63000/64000  lr 0.001   loss 0.1026  train err 3.50%  val err 11.34%  6790s
+  iter  63500/64000  lr 0.001   loss 0.0996  train err 3.47%  val err 11.48%  6845s
+  iter  64000/64000  lr 0.001   loss 0.0976  train err 3.33%  val err 11.44%  6899s
+final: test error 12.51%, validation error 11.44%, 6927s
+Set seed: 0
+Run:     plain56_seed0
+Device:  mps
+Resume:  False
+Settings:
+  depth (derived)              56
+  name                         plain56_seed0
+  n                            9
+  residual                     False
+  shortcut                     A
+  seed                         0
+  batch_size                   128
+  learning_rate                0.1
+  momentum                     0.9
+  weight_decay                 0.0001
+  max_iterations               64000
+  learning_rate_milestones     [32000, 48000]
+  learning_rate_gamma          0.1
+  warmup                       False
+  warmup_learning_rate         0.01
+  warmup_error_threshold       0.8
+  evaluate_every               500
+  checkpoint_every             2000
+  data_directory               datasets
+  output_directory             results
+
+depth 56, 853,018 parameters, device mps
+  iter    500/64000  lr 0.1     loss 2.0571  train err 79.28%  val err 75.56%  61s
+  iter   1000/64000  lr 0.1     loss 1.8895  train err 71.69%  val err 69.56%  127s
+  iter   1500/64000  lr 0.1     loss 1.7941  train err 67.70%  val err 67.62%  193s
+  iter   2000/64000  lr 0.1     loss 1.7126  train err 63.99%  val err 63.88%  258s
+  iter   2500/64000  lr 0.1     loss 1.6635  train err 62.38%  val err 62.70%  323s
+  iter   3000/64000  lr 0.1     loss 1.6253  train err 60.75%  val err 60.18%  388s
+  iter   3500/64000  lr 0.1     loss 1.5893  train err 59.20%  val err 63.54%  453s
+  iter   4000/64000  lr 0.1     loss 1.5473  train err 57.84%  val err 59.56%  517s
+  iter   4500/64000  lr 0.1     loss 1.5032  train err 55.52%  val err 57.02%  583s
+  iter   5000/64000  lr 0.1     loss 1.4533  train err 53.58%  val err 52.90%  650s
+  iter   5500/64000  lr 0.1     loss 1.3955  train err 51.34%  val err 53.76%  715s
+  iter   6000/64000  lr 0.1     loss 1.3238  train err 48.08%  val err 51.22%  780s
+  iter   6500/64000  lr 0.1     loss 1.2572  train err 45.75%  val err 48.76%  846s
+  iter   7000/64000  lr 0.1     loss 1.1879  train err 42.87%  val err 43.70%  912s
+  iter   7500/64000  lr 0.1     loss 1.1077  train err 39.77%  val err 43.60%  977s
+  iter   8000/64000  lr 0.1     loss 1.0537  train err 37.66%  val err 44.10%  1042s
+  iter   8500/64000  lr 0.1     loss 0.9945  train err 35.49%  val err 44.84%  1109s
+  iter   9000/64000  lr 0.1     loss 0.9642  train err 34.16%  val err 43.06%  1174s
+  iter   9500/64000  lr 0.1     loss 0.9133  train err 32.09%  val err 33.80%  1240s
+  iter  10000/64000  lr 0.1     loss 0.8928  train err 31.21%  val err 32.54%  1306s
+  iter  10500/64000  lr 0.1     loss 0.8617  train err 30.22%  val err 31.46%  1372s
+  iter  11000/64000  lr 0.1     loss 0.8366  train err 29.29%  val err 33.60%  1437s
+  iter  11500/64000  lr 0.1     loss 0.8122  train err 28.09%  val err 30.90%  1502s
+  iter  12000/64000  lr 0.1     loss 0.7945  train err 27.31%  val err 39.64%  1568s
+  iter  12500/64000  lr 0.1     loss 0.7720  train err 26.47%  val err 29.08%  1633s
+  iter  13000/64000  lr 0.1     loss 0.7486  train err 25.71%  val err 28.68%  1697s
+  iter  13500/64000  lr 0.1     loss 0.7343  train err 25.21%  val err 30.88%  1763s
+  iter  14000/64000  lr 0.1     loss 0.7218  train err 24.49%  val err 29.40%  1829s
+  iter  14500/64000  lr 0.1     loss 0.7118  train err 24.26%  val err 28.90%  1896s
+  iter  15000/64000  lr 0.1     loss 0.6916  train err 23.65%  val err 28.32%  1962s
+  iter  15500/64000  lr 0.1     loss 0.6796  train err 23.44%  val err 24.58%  2027s
+  iter  16000/64000  lr 0.1     loss 0.6718  train err 23.09%  val err 24.72%  2092s
+  iter  16500/64000  lr 0.1     loss 0.6601  train err 22.42%  val err 24.30%  2157s
+  iter  17000/64000  lr 0.1     loss 0.6503  train err 22.38%  val err 33.14%  2222s
+  iter  17500/64000  lr 0.1     loss 0.6405  train err 21.84%  val err 29.60%  2286s
+  iter  18000/64000  lr 0.1     loss 0.6292  train err 21.49%  val err 27.06%  2351s
+  iter  18500/64000  lr 0.1     loss 0.6203  train err 21.20%  val err 22.50%  2422s
+  iter  19000/64000  lr 0.1     loss 0.6169  train err 21.02%  val err 28.48%  2490s
+  iter  19500/64000  lr 0.1     loss 0.5989  train err 20.38%  val err 25.82%  2559s
+  iter  20000/64000  lr 0.1     loss 0.6071  train err 20.65%  val err 24.30%  2625s
+  iter  20500/64000  lr 0.1     loss 0.5976  train err 20.29%  val err 25.54%  2691s
+  iter  21000/64000  lr 0.1     loss 0.5914  train err 19.97%  val err 21.34%  2756s
+  iter  21500/64000  lr 0.1     loss 0.5849  train err 19.99%  val err 27.92%  2820s
+  iter  22000/64000  lr 0.1     loss 0.5831  train err 19.78%  val err 23.02%  2886s
+  iter  22500/64000  lr 0.1     loss 0.5764  train err 19.54%  val err 21.94%  2951s
+  iter  23000/64000  lr 0.1     loss 0.5714  train err 19.35%  val err 27.98%  3017s
+  iter  23500/64000  lr 0.1     loss 0.5680  train err 19.16%  val err 26.88%  3084s
+  iter  24000/64000  lr 0.1     loss 0.5590  train err 18.95%  val err 24.86%  3149s
+  iter  24500/64000  lr 0.1     loss 0.5628  train err 19.14%  val err 25.82%  3219s
+  iter  25000/64000  lr 0.1     loss 0.5492  train err 18.59%  val err 22.06%  3283s
+  iter  25500/64000  lr 0.1     loss 0.5541  train err 18.74%  val err 24.16%  3347s
+  iter  26000/64000  lr 0.1     loss 0.5469  train err 18.50%  val err 23.74%  3420s
+  iter  26500/64000  lr 0.1     loss 0.5506  train err 18.52%  val err 26.84%  3511s
+  iter  27000/64000  lr 0.1     loss 0.5436  train err 18.32%  val err 25.72%  3591s
+  iter  27500/64000  lr 0.1     loss 0.5380  train err 18.32%  val err 21.38%  3668s
+  iter  28000/64000  lr 0.1     loss 0.5404  train err 18.17%  val err 21.28%  3740s
+  iter  28500/64000  lr 0.1     loss 0.5356  train err 18.15%  val err 24.70%  3828s
+  iter  29000/64000  lr 0.1     loss 0.5233  train err 17.80%  val err 24.34%  3904s
+  iter  29500/64000  lr 0.1     loss 0.5396  train err 18.20%  val err 33.60%  3973s
+  iter  30000/64000  lr 0.1     loss 0.5325  train err 17.93%  val err 24.86%  4039s
+  iter  30500/64000  lr 0.1     loss 0.5275  train err 17.81%  val err 28.56%  4104s
+  iter  31000/64000  lr 0.1     loss 0.5226  train err 17.58%  val err 19.88%  4168s
+  iter  31500/64000  lr 0.1     loss 0.5172  train err 17.33%  val err 24.76%  4234s
+  iter  32000/64000  lr 0.01    loss 0.5128  train err 17.30%  val err 20.70%  4301s
+  iter  32500/64000  lr 0.01    loss 0.3769  train err 12.78%  val err 13.08%  4383s
+  iter  33000/64000  lr 0.01    loss 0.3272  train err 11.03%  val err 13.16%  4494s
+  iter  33500/64000  lr 0.01    loss 0.3120  train err 10.49%  val err 12.74%  4593s
+  iter  34000/64000  lr 0.01    loss 0.3020  train err 10.34%  val err 12.48%  4714s
+  iter  34500/64000  lr 0.01    loss 0.2922  train err 10.01%  val err 12.80%  4814s
+  iter  35000/64000  lr 0.01    loss 0.2918  train err 9.91%  val err 12.24%  4918s
+  iter  35500/64000  lr 0.01    loss 0.2806  train err 9.52%  val err 12.76%  5007s
+  iter  36000/64000  lr 0.01    loss 0.2802  train err 9.52%  val err 12.34%  5096s
+  iter  36500/64000  lr 0.01    loss 0.2759  train err 9.34%  val err 12.66%  5189s
+  iter  37000/64000  lr 0.01    loss 0.2682  train err 9.14%  val err 12.42%  5274s
+  iter  37500/64000  lr 0.01    loss 0.2645  train err 9.04%  val err 12.66%  5363s
+  iter  38000/64000  lr 0.01    loss 0.2608  train err 8.94%  val err 12.44%  5452s
+  iter  38500/64000  lr 0.01    loss 0.2559  train err 8.78%  val err 11.90%  5536s
+  iter  39000/64000  lr 0.01    loss 0.2572  train err 8.81%  val err 12.66%  5623s
+  iter  39500/64000  lr 0.01    loss 0.2520  train err 8.60%  val err 12.60%  5711s
+  iter  40000/64000  lr 0.01    loss 0.2516  train err 8.72%  val err 12.44%  5801s
+  iter  40500/64000  lr 0.01    loss 0.2457  train err 8.52%  val err 12.42%  5892s
+  iter  41000/64000  lr 0.01    loss 0.2431  train err 8.23%  val err 11.70%  5977s
+  iter  41500/64000  lr 0.01    loss 0.2487  train err 8.55%  val err 12.88%  6057s
+  iter  42000/64000  lr 0.01    loss 0.2359  train err 8.05%  val err 12.94%  6133s
+  iter  42500/64000  lr 0.01    loss 0.2378  train err 8.17%  val err 12.58%  6213s
+  iter  43000/64000  lr 0.01    loss 0.2332  train err 8.03%  val err 12.18%  6300s
+  iter  43500/64000  lr 0.01    loss 0.2348  train err 8.00%  val err 12.18%  6390s
+  iter  44000/64000  lr 0.01    loss 0.2310  train err 7.98%  val err 12.46%  6470s
+  iter  44500/64000  lr 0.01    loss 0.2298  train err 7.99%  val err 13.36%  6555s
+  iter  45000/64000  lr 0.01    loss 0.2254  train err 7.64%  val err 12.82%  6647s
+  iter  45500/64000  lr 0.01    loss 0.2234  train err 7.52%  val err 12.90%  6730s
+  iter  46000/64000  lr 0.01    loss 0.2246  train err 7.69%  val err 13.40%  6811s
+  iter  46500/64000  lr 0.01    loss 0.2221  train err 7.74%  val err 12.62%  6904s
+  iter  47000/64000  lr 0.01    loss 0.2211  train err 7.63%  val err 13.14%  6999s
+  iter  47500/64000  lr 0.01    loss 0.2128  train err 7.34%  val err 12.28%  7099s
+  iter  48000/64000  lr 0.001   loss 0.2150  train err 7.33%  val err 13.30%  7191s
+  iter  48500/64000  lr 0.001   loss 0.1900  train err 6.40%  val err 12.04%  7276s
+  iter  49000/64000  lr 0.001   loss 0.1784  train err 6.04%  val err 11.46%  7366s
+  iter  49500/64000  lr 0.001   loss 0.1747  train err 5.96%  val err 11.94%  7455s
+  iter  50000/64000  lr 0.001   loss 0.1709  train err 5.77%  val err 11.92%  7554s
+  iter  50500/64000  lr 0.001   loss 0.1674  train err 5.69%  val err 11.82%  7654s
+  iter  51000/64000  lr 0.001   loss 0.1678  train err 5.79%  val err 11.98%  7758s
+  iter  51500/64000  lr 0.001   loss 0.1688  train err 5.81%  val err 11.94%  7859s
+  iter  52000/64000  lr 0.001   loss 0.1668  train err 5.65%  val err 11.90%  7959s
+  iter  52500/64000  lr 0.001   loss 0.1675  train err 5.68%  val err 11.98%  8059s
+  iter  53000/64000  lr 0.001   loss 0.1648  train err 5.65%  val err 12.16%  8160s
+  iter  53500/64000  lr 0.001   loss 0.1627  train err 5.52%  val err 12.00%  8258s
+  iter  54000/64000  lr 0.001   loss 0.1598  train err 5.44%  val err 11.96%  8354s
+  iter  54500/64000  lr 0.001   loss 0.1636  train err 5.53%  val err 12.02%  8458s
+  iter  55000/64000  lr 0.001   loss 0.1626  train err 5.59%  val err 12.16%  8556s
+  iter  55500/64000  lr 0.001   loss 0.1596  train err 5.43%  val err 12.04%  8661s
+  iter  56000/64000  lr 0.001   loss 0.1573  train err 5.33%  val err 12.24%  8766s
+  iter  56500/64000  lr 0.001   loss 0.1588  train err 5.48%  val err 12.16%  8875s
+  iter  57000/64000  lr 0.001   loss 0.1568  train err 5.23%  val err 12.00%  8990s
+  iter  57500/64000  lr 0.001   loss 0.1584  train err 5.40%  val err 11.88%  9074s
+  iter  58000/64000  lr 0.001   loss 0.1555  train err 5.28%  val err 12.30%  9167s
+  iter  58500/64000  lr 0.001   loss 0.1584  train err 5.38%  val err 12.22%  9259s
+  iter  59000/64000  lr 0.001   loss 0.1576  train err 5.34%  val err 12.02%  9355s
+  iter  59500/64000  lr 0.001   loss 0.1556  train err 5.26%  val err 12.16%  9423s
+  iter  60000/64000  lr 0.001   loss 0.1549  train err 5.25%  val err 12.10%  9488s
+  iter  60500/64000  lr 0.001   loss 0.1536  train err 5.30%  val err 12.18%  9550s
+  iter  61000/64000  lr 0.001   loss 0.1545  train err 5.25%  val err 12.18%  9613s
+  iter  61500/64000  lr 0.001   loss 0.1508  train err 5.21%  val err 12.08%  9678s
+  iter  62000/64000  lr 0.001   loss 0.1536  train err 5.15%  val err 12.08%  9742s
+  iter  62500/64000  lr 0.001   loss 0.1523  train err 5.15%  val err 12.20%  9812s
+  iter  63000/64000  lr 0.001   loss 0.1544  train err 5.30%  val err 12.10%  9880s
+  iter  63500/64000  lr 0.001   loss 0.1506  train err 5.01%  val err 12.20%  9951s
+  iter  64000/64000  lr 0.001   loss 0.1498  train err 5.16%  val err 11.96%  10043s
+final: test error 12.88%, validation error 11.96%, 10073s

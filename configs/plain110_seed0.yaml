@@ -1,0 +1,12 @@
+# Plain-110: an extension, not a reproduction. The paper's plain-network
+# CIFAR results stop at depth 56, so there is no published number to
+# compare against. Expected to fail badly, which is itself the point.
+#
+# Warmup is enabled for the same reason as ResNet-110: at this depth a
+# learning rate of 0.1 diverges immediately.
+name: plain110_seed0
+n: 18
+residual: false
+seed: 0
+
+warmup: true

@@ -1,0 +1,6 @@
+# Plain-56: the control group for ResNet-56.
+# Identical parameter count; the only difference is the shortcut.
+name: plain56_seed0
+n: 9
+residual: false
+seed: 0

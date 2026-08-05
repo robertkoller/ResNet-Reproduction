@@ -1,0 +1,31 @@
+Set seed: 0
+Run:     resnet110_seed0
+Device:  mps
+Resume:  False
+Settings:
+  depth (derived)              110
+  name                         resnet110_seed0
+  n                            18
+  residual                     True
+  shortcut                     A
+  seed                         0
+  batch_size                   128
+  learning_rate                0.1
+  momentum                     0.9
+  weight_decay                 0.0001
+  max_iterations               64000
+  learning_rate_milestones     [32000, 48000]
+  learning_rate_gamma          0.1
+  warmup                       True
+  warmup_learning_rate         0.01
+  warmup_error_threshold       0.8
+  evaluate_every               500
+  checkpoint_every             2000
+  data_directory               datasets
+  output_directory             results
+
+depth 110, 1,727,962 parameters, device mps
+warmup finished at iteration 14 (batch error 79.7%)
+  iter    500/64000  lr 0.1     loss 2.1422  train err 77.67%  val err 65.74%  103s
+  iter   1000/64000  lr 0.1     loss 1.5806  train err 58.39%  val err 55.44%  203s
+  iter   1500/64000  lr 0.1     loss 1.3070  train err 47.60%  val err 43.14%  304s

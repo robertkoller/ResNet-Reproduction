@@ -1,0 +1,5 @@
+# ResNet-56. Paper's test error: 6.97%
+name: resnet56_seed0
+n: 9
+residual: true
+seed: 0

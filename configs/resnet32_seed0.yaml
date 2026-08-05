@@ -1,0 +1,5 @@
+# ResNet-32. Paper's test error: 7.51%
+name: resnet32_seed0
+n: 5
+residual: true
+seed: 0

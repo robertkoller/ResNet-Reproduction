@@ -3,6 +3,7 @@
 import argparse
 
 from train.configuration import load_configuration
+from train.loop import train
 from train.utils import get_device, set_seed
 
 # get the arguments from input
@@ -35,6 +36,9 @@ def main():
     print(f"Resume:  {arguments.resume}")
     print("Settings:")
     print(configuration.describe())
+    print()
+
+    train(configuration, resume=arguments.resume)
 
 
 if __name__ == "__main__":
